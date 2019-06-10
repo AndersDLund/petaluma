@@ -1,0 +1,15 @@
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  >app-jumbotron {
+    grid-column: 1 / 3;
+  }
+
+  >app-featured-event {
+    grid-column: 1 / 2;
+  }
+  >app-wine-and-dine {
+    grid-column: 2 / 3;
+  }
+}

@@ -1,0 +1,22 @@
+@import "../../../scss/variables";
+
+section {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+
+  >article {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    >.pick {
+      height: 9rem;
+      margin: .2rem;
+      width: 9rem;
+      background-color: $primary;
+    }
+  }
+}
