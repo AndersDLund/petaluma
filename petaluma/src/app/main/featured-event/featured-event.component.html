@@ -1,0 +1,19 @@
+<section>
+  <header>
+    <p>{{featuredEvent.name}}</p>
+  </header>
+
+  <aside>
+    <p>EVENTS</p>
+  </aside>
+
+  <article [ngStyle]="{'background-image': 'url(' + featuredEvent.img + ')'}">
+    <div class="overlay">
+      <a href="">Learn More</a>
+    </div>
+    <div class="pill">
+      <p>FEATURED</p>
+    </div>
+  </article>
+
+</section>

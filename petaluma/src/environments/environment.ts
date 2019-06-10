@@ -3,7 +3,9 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  // petaluma id 5382232
+  weatherKey: 'c380c376f41220ae94de4dc93e39de8b'
 };
 
 /*

@@ -1,0 +1,5 @@
+<aside>
+  <p>{{currentWeather.temperature}}&deg;F</p>
+  <div [ngStyle]="{'background-image': 'url(' + currentWeather.imgUrl + ')'}"></div>
+  <p>{{currentWeather.description}}</p>
+</aside>

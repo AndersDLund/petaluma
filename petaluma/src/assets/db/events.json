@@ -1,0 +1,46 @@
+{
+  "events": [
+    {
+      "name": "Butter & Egg Days",
+      "date": "April 27",
+      "description": "",
+      "img": "assets/images/events/butter_egg.jpg"
+    },
+    {
+      "name": "Antique Faire",
+      "date": "September 29",
+      "description": "",
+      "img": "assets/images/events/antique_faire.jpg"
+    },
+    {
+      "name": "Art & Garden",
+      "date": "",
+      "description": "",
+      "img": "assets/images/events/art_garden.jpg"
+    },
+    {
+      "name": "American Graffiti",
+      "date": "May 16 - 18",
+      "description": "",
+      "img": "assets/images/events/american_graffiti2.jpg"
+    },
+    {
+      "name": "Rivertown Revival",
+      "date": "July 20",
+      "description": "",
+      "img": "assets/images/events/rivertown_revival.jpg"
+    },
+    {
+      "name": "Lagunitas Beer Circus",
+      "date": "September 14",
+      "description": "",
+      "img": "assets/images/events/lagunitas.jpg"
+    },
+    {
+      "name": "Craft Beer Festival",
+      "date": "September 28",
+      "description": "",
+      "img": "assets/images/events/beer_fest.jpg"
+    }
+  ]
+}
