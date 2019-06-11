@@ -1,8 +1,12 @@
 <section>
   <article>
-    <ng-container *ngFor="let pick of topPicks">
-      <div class="pick" [ngStyle]="{'background-image': 'url(' + pick.img + ')'}">
+    <ng-container *ngFor="let pick of topPicks;">
+      <div class="pick"
+        [ngStyle]="{'background-image': 'url(' + pick.img + ')', 'animation-delay': pick.delay}">
       </div>
     </ng-container>
   </article>
+  <header>
+    <p>Wine N' Dine</p>
+  </header>
 </section>
