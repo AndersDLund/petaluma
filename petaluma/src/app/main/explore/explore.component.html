@@ -1,3 +1,17 @@
 <section>
-  <p>WOOOOOOOOOOOOOO</p>
+  <header>
+    <p>You can do it all!</p>
+  </header>
+  <article>
+    <ng-container *ngFor="let place of places">
+      <div class="outer" [ngStyle]="{'background-image': 'url(' + place.img + ')'}">
+        <div class="inner">
+          <p>{{place.name}}</p>
+        </div>
+        <div class="under">
+          <a href="">Learn More</a>
+        </div>
+      </div>
+    </ng-container>
+  </article>
 </section>

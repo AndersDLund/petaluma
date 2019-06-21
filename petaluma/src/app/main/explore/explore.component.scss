@@ -1,0 +1,80 @@
+@import "../../../scss/variables";
+
+section {
+  display: flex;
+  margin: 0 0 10rem 0;
+  justify-content: space-around;
+  flex-direction: column;
+  background: linear-gradient($light-shade, #fff);
+
+  >header {
+    display: flex;
+    justify-content: center;
+
+    >p {
+      font-family: $font-primary;
+      color: $dark-shade;
+      font-size: 10rem;
+    }
+  }
+
+  >article {
+    display: flex;
+    justify-content: space-around;
+
+    >.outer {
+      height: 20rem;
+      width: 20rem;
+      border-radius: 50%;
+      position: relative;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+
+      &:hover>.inner {
+        transition: all .7s ease-in-out;
+        transform: translateY(-18rem);
+      }
+
+      >.inner {
+        height: 10rem;
+        width: 10rem;
+        border-radius: 50%;
+        background-color: $primary;
+        position: absolute;
+        bottom: -5rem;
+        left: 25%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: all .7s ease-in-out;
+        z-index: 1;
+
+        >p {
+          color: $light-shade;
+          font-family: $font-secondary;
+          font-size: 1.2rem;
+        }
+      }
+
+      >.under {
+        height: 10rem;
+        width: 10rem;
+        border-radius: 50%;
+        background-color: $dark-accent;
+        position: absolute;
+        bottom: -5rem;
+        left: 25%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        >a {
+          color: $light-shade;
+          font-family: $font-secondary;
+          font-size: 1.5rem;
+        }
+      }
+    }
+  }
+}

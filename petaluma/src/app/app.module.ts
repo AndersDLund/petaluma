@@ -12,6 +12,8 @@ import { FeaturedEventComponent } from './main/featured-event/featured-event.com
 import { WineAndDineComponent } from './main/wine-and-dine/wine-and-dine.component';
 import { ParallaxQuoteComponent } from './main/parallax-quote/parallax-quote.component';
 import { ExploreComponent } from './main/explore/explore.component';
+import { NewsComponent } from './main/news/news.component';
+import { FooterComponent } from './shared/components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { ExploreComponent } from './main/explore/explore.component';
     FeaturedEventComponent,
     WineAndDineComponent,
     ParallaxQuoteComponent,
-    ExploreComponent
+    ExploreComponent,
+    NewsComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,

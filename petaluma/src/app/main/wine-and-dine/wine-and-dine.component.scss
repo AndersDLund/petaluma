@@ -31,13 +31,14 @@ section {
 
   >header {
     width: 100%;
-    padding-right: 5rem;
+    // padding-right: 5rem;
     >p {
       margin: 0;
       color: $dark-shade;
       font-size: 4rem;
       font-family: $font-primary;
       text-align: end;
+      width: 97%;
     }
   }
 }
