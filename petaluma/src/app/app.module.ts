@@ -14,6 +14,7 @@ import { ParallaxQuoteComponent } from './main/parallax-quote/parallax-quote.com
 import { ExploreComponent } from './main/explore/explore.component';
 import { NewsComponent } from './main/news/news.component';
 import { FooterComponent } from './shared/components/footer/footer.component';
+import { SocialComponent } from './main/social/social.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +28,7 @@ import { FooterComponent } from './shared/components/footer/footer.component';
     ExploreComponent,
     NewsComponent,
     FooterComponent,
+    SocialComponent,
   ],
   imports: [
     BrowserModule,

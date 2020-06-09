@@ -1,8 +1,11 @@
 <section>
   <article>
     <ng-container *ngFor="let pick of topPicks;">
-      <div class="pick"
-        [ngStyle]="{'background-image': 'url(' + pick.img + ')', 'animation-delay': pick.delay}">
+      <div class="pick-container">
+        <div class="pick" [ngStyle]="{'background-image': 'url(' + pick.img + ')', 'animation-delay': pick.delay}">
+        </div>
+        <p class="pick-name">{{pick.name}}</p>
+        <p class="pick-description">{{pick.description}}</p>
       </div>
     </ng-container>
   </article>

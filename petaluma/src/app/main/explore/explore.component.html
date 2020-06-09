@@ -1,16 +1,17 @@
 <section>
-  <header>
-    <p>You can do it all!</p>
-  </header>
+  <!-- <header>
+    <p>Around the Town</p>
+  </header> -->
   <article>
     <ng-container *ngFor="let place of places">
       <div class="outer" [ngStyle]="{'background-image': 'url(' + place.img + ')'}">
-        <div class="inner">
+        <p class="segment">{{place.segment}}</p>
+        <!-- <div class="inner">
           <p>{{place.name}}</p>
         </div>
         <div class="under">
           <a href="">Learn More</a>
-        </div>
+        </div> -->
       </div>
     </ng-container>
   </article>

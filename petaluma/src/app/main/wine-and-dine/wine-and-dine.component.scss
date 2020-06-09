@@ -4,33 +4,65 @@ section {
   align-items: center;
   display: flex;
   flex-direction: column;
+  height: 40rem;
   justify-content: center;
   margin-top: 1rem;
+  position: relative;
 
   >article {
-    display: flex;
-    flex-wrap: wrap;
+    // display: flex;
+    // flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
+    display: grid;
+    grid-template-rows: repeat(1, 15rem);
+    grid-template-columns: repeat(3, 30%);
+    gap: 1rem;
+    height: 100%;
+    // align-items: center;
 
-    >.pick {
-      animation: fadeIn .5s forwards;
-      opacity: 0;
-      background-color: $primary;
-      background-size: 50%;
-      background-position: center;
-      background-repeat: no-repeat;
-      height: 9rem;
-      margin: .2rem;
-      width: 9rem;
-      transition: .5s;
+    >.pick-container {
+      height: 100%;
+      width: 100%;
+      >.pick {
+        animation: fadeIn .5s forwards;
+        opacity: 0;
+        background-color: $primary;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        border-radius: 1rem;
+        height: 100%;
+        margin: .2rem;
+        width: 100%;
+        transition: .5s;
 
-      &:hover {}
+        &:hover {}
+      }
+
+      >.pick-name {
+        font-family: $font-primary;
+        font-size: 1.5rem;
+        margin: 1rem 0;
+        color: $primary;
+        text-align: center;
+      }
+
+      >.pick-description {
+        font-family: $font-secondary;
+        font-size: 1rem;
+        margin: 0;
+        color: $light-accent;
+        text-align: center;
+      }
     }
   }
 
   >header {
     width: 100%;
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+
     // padding-right: 5rem;
     >p {
       margin: 0;

@@ -1,0 +1,18 @@
+@import "../../../../scss/variables";
+
+footer {
+  background-color: $dark-shade;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 20rem;
+  margin-top: 1rem;
+  width: 100%;
+
+  >p {
+    color: $dark-accent;
+    font-family: $font-primary;
+    font-size: 1rem;
+  }
+}
